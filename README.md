@@ -8,10 +8,10 @@ Automate common Twitter activities such as following &amp; unfollowing twitter a
 * Set the max amount of users to follow in one run of this script
 
 # How to Use
-1) Simply open up 'myTwitterAuthTokens.php'
-2) Create a new twitter app at https://apps.twitter.com
-3) Browse to your newly created app
-4) Copy in the relevant keys to your file in step one
+1. Simply open up 'myTwitterAuthTokens.php'
+2. Create a new twitter app at https://apps.twitter.com
+3. Browse to your newly created app
+4. Copy in the relevant keys to your file in step one
 
 If you have trouble copying the correct keys check out the following article: 
 https://twittercommunity.com/t/how-do-i-find-my-consumer-key-and-secret/646/7
