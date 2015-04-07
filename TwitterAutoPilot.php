@@ -1,14 +1,14 @@
 <?php
-require_once('twitterOAuth.php');
-require_once('myTwitterAuthTokens.php');
+require_once('lib/twitterOAuth.php');
+require_once('config.php');
 
-$twitterAuth = new TwitterOAuth ( YOUR_TWITTER_APP_CONSUMER_KEY, YOUR_TWITTER_APP_CONSUMER_SECRET, YOUR_TWITTER_APP_OAUTH_TOKEN, YOUR_TWITTER_APP_OAUTH_SECRET);
+$twitterAuth = new TwitterOAuth ( APP_CONSUMER_KEY, APP_CONSUMER_SECRET, APP_OAUTH_TOKEN, APP_OAUTH_SECRET);
 
 date_default_timezone_set("Europe/Dublin");
-$maxDelayTime = 7; // Set the max delay in seconds between api requests (following or unfollowing)
-$maxUnfollow = 3000; // Set the max amount of users to unfollow in one run of this script
-$maxFollow = 973; // Set the max amount of users to follow in one run of this script
-$user = "tferris"; // Set the user who's followers you would like to follow
+$maxDelayTime = 8; // Set the max delay in seconds between api requests (following or unfollowing)
+$maxUnfollow = 4000; // Set the max amount of users to unfollow in one run of this script
+$maxFollow = 984; // Set the max amount of users to follow in one run of this script
+$user = "CNET"; // Set the user who's followers you would like to follow
 
 
 $followings = $twitterAuth->get('friends/ids'); // User's I'm following

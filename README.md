@@ -1,7 +1,7 @@
 # Twitter-Auto-Pilot
 Automate common Twitter activities such as following &amp; unfollowing twitter accounts. 
 
-* This script makes use of the Twitter API to effortlessly follow users of a certain user. 
+This script makes use of the Twitter API to effortlessly follow users of a certain user. 
 * Unfollow users who are not following you back.
 * Set the max delay in seconds between api requests (following or unfollowing).
 * Set the max amount of users to unfollow in one run of this script.
