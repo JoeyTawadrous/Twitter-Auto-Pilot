@@ -8,10 +8,11 @@ This script makes use of the Twitter API to effortlessly follow users of a certa
 * Set the max amount of users to follow in one run of this script
 
 # How to Use
-1. Simply open up 'myTwitterAuthTokens.php'
+1. Simply open up one of the examles in the pilots folder (e.g. applandr/index.php)
 2. Create a new twitter app at https://apps.twitter.com
 3. Browse to your newly created app
 4. Copy in the relevant keys to your file in step one
+5. Check the logs for detailed info on what your script is doing when executed.
 
 If you have trouble copying the correct keys check out the following article: 
 https://twittercommunity.com/t/how-do-i-find-my-consumer-key-and-secret/646/7
