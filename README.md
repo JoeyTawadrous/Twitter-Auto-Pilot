@@ -10,10 +10,10 @@ This script makes use of the Twitter API to effortlessly follow users of a certa
 # How to Use
 1. Open up one of the examples in the pilots folder (e.g. applandr/index.php)
 2. Create a copy of this file in a new folder (name of the folder does not matter but the file must be called index.php)
-2. Create a new twitter app at https://apps.twitter.com
-3. Browse to your newly created app
-4. Copy in the relevant keys to your newly created file (index.php) in step one
-5. Check the logs for detailed info on what your script is doing when executed.
+3. Create a new twitter app at https://apps.twitter.com
+4. Browse to your newly created app (on https://apps.twitter.com)
+5. Copy in your four keys (Consumer Key & Secret and Access Token & Secret) to your newly created file (index.php) in step one
+6. Check the logs for detailed info on what your script is doing when executed.
 
 If you have trouble copying the correct keys check out the following article: 
 https://twittercommunity.com/t/how-do-i-find-my-consumer-key-and-secret/646/7
