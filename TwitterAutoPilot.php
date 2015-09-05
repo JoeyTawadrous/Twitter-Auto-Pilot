@@ -17,7 +17,7 @@ class TwitterAutoPilot {
 		$credentials = $twitterAuth->get('account/verify_credentials');
 		$currentUser = $credentials->screen_name;
 
-		$users = array("tferris", 'TechCrunch', 'CNET', 'leanstartup');
+		$users = array('tferris', 'TechCrunch', 'CNET', 'leanstartup');
 		$user = $users[mt_rand(0, count($users) - 1)]; // Set the user who's followers you would like to follow
 
 		$followings = $twitterAuth->get('friends/ids'); // User's I'm following
