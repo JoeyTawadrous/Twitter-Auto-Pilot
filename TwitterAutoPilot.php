@@ -33,7 +33,7 @@ class TwitterAutoPilot {
 		$followersCount = $this->getFollowersCountForUser($currentUser, $twitterAuth);
 		$followingCount = $this->getFollowingCountForUser($currentUser, $twitterAuth);
 
-		if($followersCount - $followingCount > -800) {
+		if($followersCount - $followingCount > -600) {
 			$this->followUsersOfUser($twitterAuth, $followersCount, $followingCount, $usersFollowers, $followings, $maxDelayTime, $maxFollow, $user);
 		}
 		else {
