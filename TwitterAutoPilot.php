@@ -34,7 +34,14 @@ class TwitterAutoPilot {
 		$followingCount = $this->getFollowingCountForUser($currentUser, $twitterAuth);
 
 		if($followersCount - $followingCount > -600) {
-			$this->followUsersOfUser($twitterAuth, $followersCount, $followingCount, $usersFollowers, $followings, $maxDelayTime, $maxFollow, $user);
+
+            // can't follow any more if followed 2000 and under 2000 followers
+            if($followersCount < 2000 && $followingCount > 1950) {
+                $this->unfollowUsersNotFollowingMe($twitterAuth, $followersCount, $followingCount, $followings, $followers, $maxDelayTime, $maxUnfollow);
+            }
+            else {
+			    $this->followUsersOfUser($twitterAuth, $followersCount, $followingCount, $usersFollowers, $followings, $maxDelayTime, $maxFollow, $user);
+            }
 		}
 		else {
 			$this->unfollowUsersNotFollowingMe($twitterAuth, $followersCount, $followingCount, $followings, $followers, $maxDelayTime, $maxUnfollow);
