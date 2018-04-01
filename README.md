@@ -1,5 +1,5 @@
 # Twitter-Auto-Pilot
-TweetPal.io allows you to automate common Twitter activities such as following & unfollowing Twitter accounts, following users back, favoriting tweets that match a search query, sending messages to users who are following you. 
+TweetPal allows you to automate common Twitter activities such as following & unfollowing Twitter accounts, following users back, favoriting tweets that match a search query, sending messages to users who are following you. 
 
 
 # Features
